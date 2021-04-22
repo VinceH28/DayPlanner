@@ -18,55 +18,107 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="C:\Users\Vince\OneDrive\Columbia Bootcamp\GitHub\Homework5\style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+    <header id="jumbo" class="jumbotron">
+      <h1 class="display-3"> Day Planner App </h1>
+      <p class="lead"> An easier way to view and change your daily plans! </p>
       <p id="currentDay" class="lead"></p>
     </header>
 
     <!-- Calender Setup -->
-    <main class="container">
+    <main id="container" class="container">
        
-         <div class="calender"></div>
-            <div class="monthName">
-            <id class="monthName-H1">December</id> 
-            <id class="monthName-p1">Sat. December 11, 2020</id>
-         </div>
-         
+      <!-- Timeblocks go here -->
+      <section>
+        <div class="row time-block" id="01">
+          <div class="col-1 hour"> 8:00 a.m. </div>
+            <textarea class='col-10' 
+              id="textarea-input">
+            </textarea>
+            <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
 
-       <!-- Weekday goes here -->
-         <section>
-            <div class="Weekday" id="weekdays">Sunday
-            <div class="Weekday" id="weekdays">Monday
-            <div class="Weekday" id="weekdays">Tuesday
-            <div class="Weekday" id="weekdays">Wendesday
-            <div class="Weekday" id="weekdays">Thursday
-            <div class="Weekday" id="weekdays">Friday 
-            <div class="Weekday" id="weekdays">Saturday
-         </section>
+        <div class="row time-block" id="02">
+          <div class="col-1 hour"> 9:00 a.m. </div>
+            <textarea class='col-10' 
+              id="textarea-input">
+            </textarea>
+            <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
 
-            <!-- Timeblocks go here -->
-         <section>
-            <div class="row" id="01">8am: </div>
-            <div class="row" id="01">9am: </div>
-            <div class="row" id="02">10am: </div>
-            <div class="row" id="03">11am: </div>
-            <div class="row" id="04">12am: </div>
-            <div class="row" id="05">1pm: </div>
-            <div class="row" id="06">2pm: </div>
-            <div class="row" id="07">3pm: </div>
-            <div class="row" id="08">4pm: </div>
-            <div class="row" id="09">5pm: </div>
+        <div class="row time-block" id="03">
+          <div class="col-1 hour"> 10:00 a.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="04">
+          <div class="col-1 hour"> 11:00 a.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="05">
+         <div class="col-1 hour"> 12:00 p.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="06">
+          <div class="col-1 hour"> 01:00 p.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="07">
+          <div class="col-1 hour"> 02:00 p.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="08">
+          <div class="col-1 hour"> 03:00 p.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="09">
+          <div class="col-1 hour"> 04:00 p.m. </div>
+            <textarea class='col-10' 
+                id="textarea-input">
+              </textarea>
+              <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
+
+        <div class="row time-block" id="10">
+          <div class="col-1 hour"> 05:00 p.m. </div>
+          <textarea class='col-10' 
+            id="textarea-input">
+          </textarea>
+          <button class="saveBtn"><i class="fsa fa-save"></i><button>
+        </div>
          </section>   
-      
+         
+          <!-- Container for time block, text area input and save button  -->
       </main>
 
-    <script src= "C:\Users\Vince\OneDrive\Columbia Bootcamp\GitHub\Homework5\script.js"></script>
+    <script src= "script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
