@@ -1,4 +1,4 @@
-# Homework5 APIs: Work Day Scheduler
+# DayPlanner APIs: Work Day Scheduler
 
 ## Table of contents
 * [General info](#general-info)
