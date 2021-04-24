@@ -7,6 +7,7 @@ body {
 #jumbo {
   background: url('https://images.unsplash.com/photo-1471970394675-613138e45da3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHBsYW5uZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #container {
